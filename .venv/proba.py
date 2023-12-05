@@ -13,7 +13,7 @@ def detect_faces(img):
         return img
 
     for x, y, w, h in faces:
-        cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
+        cv2.rectangle(img, (x, y), (x + w, y + h), (5, 100, 15), 2)
     return img
 
 
